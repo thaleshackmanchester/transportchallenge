@@ -1,4 +1,4 @@
-# Thales Hack Machester - Transport Challenge
+# Hack Machester - Transport Challenge
 
 **Given real-time train information, develop an innovative way of communicating this information in a useful way to someone you know.**
 
