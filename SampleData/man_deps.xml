@@ -1,0 +1,220 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetDepartureBoardResponse xmlns="http://thalesgroup.com/RTTI/2015-05-14/ldb/">
+         <l:GetStationBoardResult xmlns:lt3="http://thalesgroup.com/RTTI/2015-05-14/ldb/types" xmlns:lt="http://thalesgroup.com/RTTI/2012-01-13/ldb/types" xmlns:lt2="http://thalesgroup.com/RTTI/2014-02-20/ldb/types" xmlns:l="http://thalesgroup.com/RTTI/2015-05-14/ldb/">
+            <lt3:generatedAt>2015-10-26T14:15:03.8881769+00:00</lt3:generatedAt>
+            <lt3:locationName>Manchester Piccadilly</lt3:locationName>
+            <lt3:crs>MAN</lt3:crs>
+            <lt3:nrccMessages>
+               <lt:message>Trains between Birmingham New Steet and Wolverhampton are being disrupted. More details can be found in &lt;A href="http://nationalrail.co.uk/service_disruptions/109683.aspx">Latest Travel News.&lt;/A></lt:message>
+            </lt3:nrccMessages>
+            <lt3:platformAvailable>true</lt3:platformAvailable>
+            <lt3:trainServices>
+               <lt3:service>
+                  <lt3:std>14:07</lt3:std>
+                  <lt3:etd>14:17</lt3:etd>
+                  <lt3:operator>First TransPennine Express</lt3:operator>
+                  <lt3:operatorCode>TP</lt3:operatorCode>
+                  <lt3:serviceType>train</lt3:serviceType>
+                  <lt3:serviceID>6y1C1NhEQ/c6i2OsmpxY5Q==</lt3:serviceID>
+                  <lt3:origin>
+                     <lt2:location>
+                        <lt2:locationName>Cleethorpes</lt2:locationName>
+                        <lt2:crs>CLE</lt2:crs>
+                     </lt2:location>
+                  </lt3:origin>
+                  <lt3:destination>
+                     <lt2:location>
+                        <lt2:locationName>Manchester Airport</lt2:locationName>
+                        <lt2:crs>MIA</lt2:crs>
+                     </lt2:location>
+                  </lt3:destination>
+               </lt3:service>
+               <lt3:service>
+                  <lt3:std>14:11</lt3:std>
+                  <lt3:etd>14:16</lt3:etd>
+                  <lt3:operator>First TransPennine Express</lt3:operator>
+                  <lt3:operatorCode>TP</lt3:operatorCode>
+                  <lt3:serviceType>train</lt3:serviceType>
+                  <lt3:serviceID>YJHDTuhlCxB4LmAuOoEhJw==</lt3:serviceID>
+                  <lt3:origin>
+                     <lt2:location>
+                        <lt2:locationName>Liverpool Lime Street</lt2:locationName>
+                        <lt2:crs>LIV</lt2:crs>
+                     </lt2:location>
+                  </lt3:origin>
+                  <lt3:destination>
+                     <lt2:location>
+                        <lt2:locationName>Scarborough</lt2:locationName>
+                        <lt2:crs>SCA</lt2:crs>
+                     </lt2:location>
+                  </lt3:destination>
+               </lt3:service>
+               <lt3:service>
+                  <lt3:std>14:14</lt3:std>
+                  <lt3:etd>On time</lt3:etd>
+                  <lt3:operator>Northern</lt3:operator>
+                  <lt3:operatorCode>NT</lt3:operatorCode>
+                  <lt3:serviceType>train</lt3:serviceType>
+                  <lt3:serviceID>WGkLWWhyXO5LbkzCJ00IrA==</lt3:serviceID>
+                  <lt3:origin>
+                     <lt2:location>
+                        <lt2:locationName>Manchester Piccadilly</lt2:locationName>
+                        <lt2:crs>MAN</lt2:crs>
+                     </lt2:location>
+                  </lt3:origin>
+                  <lt3:destination>
+                     <lt2:location>
+                        <lt2:locationName>Manchester Airport</lt2:locationName>
+                        <lt2:crs>MIA</lt2:crs>
+                     </lt2:location>
+                  </lt3:destination>
+               </lt3:service>
+               <lt3:service>
+                  <lt3:std>14:14</lt3:std>
+                  <lt3:etd>On time</lt3:etd>
+                  <lt3:operator>Northern</lt3:operator>
+                  <lt3:operatorCode>NT</lt3:operatorCode>
+                  <lt3:serviceType>train</lt3:serviceType>
+                  <lt3:serviceID>+Byy0sKq/KixQ4KZDi5XCA==</lt3:serviceID>
+                  <lt3:origin>
+                     <lt2:location>
+                        <lt2:locationName>Manchester Piccadilly</lt2:locationName>
+                        <lt2:crs>MAN</lt2:crs>
+                     </lt2:location>
+                  </lt3:origin>
+                  <lt3:destination>
+                     <lt2:location>
+                        <lt2:locationName>New Mills Central</lt2:locationName>
+                        <lt2:crs>NMC</lt2:crs>
+                        <lt2:via>via Bredbury</lt2:via>
+                     </lt2:location>
+                  </lt3:destination>
+               </lt3:service>
+               <lt3:service>
+                  <lt3:std>14:15</lt3:std>
+                  <lt3:etd>On time</lt3:etd>
+                  <lt3:operator>Virgin Trains</lt3:operator>
+                  <lt3:operatorCode>VT</lt3:operatorCode>
+                  <lt3:serviceType>train</lt3:serviceType>
+                  <lt3:serviceID>+u9gONfBzoTsd0ljcVQ+TA==</lt3:serviceID>
+                  <lt3:origin>
+                     <lt2:location>
+                        <lt2:locationName>Manchester Piccadilly</lt2:locationName>
+                        <lt2:crs>MAN</lt2:crs>
+                     </lt2:location>
+                  </lt3:origin>
+                  <lt3:destination>
+                     <lt2:location>
+                        <lt2:locationName>London Euston</lt2:locationName>
+                        <lt2:crs>EUS</lt2:crs>
+                     </lt2:location>
+                  </lt3:destination>
+               </lt3:service>
+               <lt3:service>
+                  <lt3:std>14:16</lt3:std>
+                  <lt3:etd>Delayed</lt3:etd>
+                  <lt3:operator>First TransPennine Express</lt3:operator>
+                  <lt3:operatorCode>TP</lt3:operatorCode>
+                  <lt3:serviceType>train</lt3:serviceType>
+                  <lt3:serviceID>3AYKMnF0SlBq64pZRHAtnA==</lt3:serviceID>
+                  <lt3:origin>
+                     <lt2:location>
+                        <lt2:locationName>Manchester Airport</lt2:locationName>
+                        <lt2:crs>MIA</lt2:crs>
+                     </lt2:location>
+                  </lt3:origin>
+                  <lt3:destination>
+                     <lt2:location>
+                        <lt2:locationName>Edinburgh</lt2:locationName>
+                        <lt2:crs>EDB</lt2:crs>
+                     </lt2:location>
+                  </lt3:destination>
+               </lt3:service>
+               <lt3:service>
+                  <lt3:std>14:17</lt3:std>
+                  <lt3:etd>On time</lt3:etd>
+                  <lt3:operator>Northern</lt3:operator>
+                  <lt3:operatorCode>NT</lt3:operatorCode>
+                  <lt3:serviceType>train</lt3:serviceType>
+                  <lt3:serviceID>39WaiXI0xsitKYhoc5qZRA==</lt3:serviceID>
+                  <lt3:origin>
+                     <lt2:location>
+                        <lt2:locationName>Manchester Piccadilly</lt2:locationName>
+                        <lt2:crs>MAN</lt2:crs>
+                     </lt2:location>
+                  </lt3:origin>
+                  <lt3:destination>
+                     <lt2:location>
+                        <lt2:locationName>Chester</lt2:locationName>
+                        <lt2:crs>CTR</lt2:crs>
+                        <lt2:via>via Northwich</lt2:via>
+                     </lt2:location>
+                  </lt3:destination>
+               </lt3:service>
+               <lt3:service>
+                  <lt3:std>14:18</lt3:std>
+                  <lt3:etd>On time</lt3:etd>
+                  <lt3:operator>Northern</lt3:operator>
+                  <lt3:operatorCode>NT</lt3:operatorCode>
+                  <lt3:serviceType>train</lt3:serviceType>
+                  <lt3:serviceID>yIePtwPKIVtE9+dE/5wh/A==</lt3:serviceID>
+                  <lt3:origin>
+                     <lt2:location>
+                        <lt2:locationName>Manchester Piccadilly</lt2:locationName>
+                        <lt2:crs>MAN</lt2:crs>
+                     </lt2:location>
+                  </lt3:origin>
+                  <lt3:destination>
+                     <lt2:location>
+                        <lt2:locationName>Hadfield</lt2:locationName>
+                        <lt2:crs>HDF</lt2:crs>
+                     </lt2:location>
+                  </lt3:destination>
+               </lt3:service>
+               <lt3:service>
+                  <lt3:std>14:20</lt3:std>
+                  <lt3:etd>On time</lt3:etd>
+                  <lt3:operator>First TransPennine Express</lt3:operator>
+                  <lt3:operatorCode>TP</lt3:operatorCode>
+                  <lt3:serviceType>train</lt3:serviceType>
+                  <lt3:serviceID>A2c+Ij7AivZ9cFj/WVhofA==</lt3:serviceID>
+                  <lt3:origin>
+                     <lt2:location>
+                        <lt2:locationName>Manchester Airport</lt2:locationName>
+                        <lt2:crs>MIA</lt2:crs>
+                     </lt2:location>
+                  </lt3:origin>
+                  <lt3:destination>
+                     <lt2:location>
+                        <lt2:locationName>Sheffield</lt2:locationName>
+                        <lt2:crs>SHF</lt2:crs>
+                        <lt2:via>via Stockport</lt2:via>
+                     </lt2:location>
+                  </lt3:destination>
+               </lt3:service>
+               <lt3:service>
+                  <lt3:std>14:21</lt3:std>
+                  <lt3:etd>On time</lt3:etd>
+                  <lt3:operator>Northern</lt3:operator>
+                  <lt3:operatorCode>NT</lt3:operatorCode>
+                  <lt3:serviceType>train</lt3:serviceType>
+                  <lt3:serviceID>s3O59Llvn1ZHdTMEIi0kZw==</lt3:serviceID>
+                  <lt3:origin>
+                     <lt2:location>
+                        <lt2:locationName>Blackpool North</lt2:locationName>
+                        <lt2:crs>BPN</lt2:crs>
+                     </lt2:location>
+                  </lt3:origin>
+                  <lt3:destination>
+                     <lt2:location>
+                        <lt2:locationName>Hazel Grove</lt2:locationName>
+                        <lt2:crs>HAZ</lt2:crs>
+                     </lt2:location>
+                  </lt3:destination>
+               </lt3:service>
+            </lt3:trainServices>
+         </l:GetStationBoardResult>
+      </GetDepartureBoardResponse>
+   </soap:Body>
+</soap:Envelope>
