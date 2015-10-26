@@ -13,7 +13,7 @@ There will be prizes (including Raspberry PIs and MakeyMakey kits) for the winni
 
 * There will be two types of data available. One relates to station specific data (e.g. trains arriving and departing), and one is train specific data (e.g. where is the 1440 train from London to Manchester). The data can be made available in a number of formats – this can be discussed with the mentors during the event. http://nrodwiki.rockshore.net/index.php/Main_Page contains some useful tips.
 
-* Access to the live data requires a free account. This can be arranged at the start of the event.
+* Access to the live data requires a free account, you can register for your account here: http://realtime.nationalrail.co.uk/OpenLDBWSRegistration/
 
 * Examples of current uses of the data include:
   * http://ojp.nationalrail.co.uk/service/ldbboard/dep/MAN  (example of station specific webpage)
