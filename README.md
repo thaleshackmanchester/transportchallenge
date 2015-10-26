@@ -20,6 +20,7 @@ There will be prizes (including Raspberry PIs and MakeyMakey kits) for the winni
   * http://bit.ly/ManPicLiveTrainDepartures (example of platform customer information systems)
 
 * We would be delighted to see a Manchester theme in your solution.
+* Here are some hints on how to interact with XML APIs from VB.NET: https://msdn.microsoft.com/en-us/library/cc189056%28v=vs.95%29.aspx
 
 * As regards the file format of the data, the default data format is JSON but the Thales mentors will help if this format is unfamiliar to you.
 
