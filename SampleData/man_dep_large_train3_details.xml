@@ -1,0 +1,176 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetServiceDetailsResponse xmlns="http://thalesgroup.com/RTTI/2015-05-14/ldb/">
+         <GetServiceDetailsResult>
+            <generatedAt xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">2015-10-27T07:52:46.38701+00:00</generatedAt>
+            <serviceType xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">train</serviceType>
+            <locationName xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">Manchester Piccadilly</locationName>
+            <crs xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">MAN</crs>
+            <operator xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">Northern</operator>
+            <operatorCode xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">NT</operatorCode>
+            <sta xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">07:50</sta>
+            <ata xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">On time</ata>
+            <std xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">07:52</std>
+            <etd xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">On time</etd>
+            <previousCallingPoints xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">
+               <callingPointList serviceType="train" serviceChangeRequired="false" assocIsCancelled="false">
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Buxton</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">BUX</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">06:48</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</at>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Chapel-en-le-Frith</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">CEF</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">06:57</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">06:59</at>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Whaley Bridge</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">WBR</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:03</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">No report</at>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Furness Vale</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">FNV</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:06</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:08</at>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">New Mills Newtown</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">NMN</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:10</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">No report</at>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Disley</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">DSL</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:14</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">No report</at>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Hazel Grove</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">HAZ</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:26</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</at>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Woodsmoor</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">WSR</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:28</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">No report</at>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Davenport</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">DVN</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:31</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</at>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Stockport</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">SPT</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:37</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</at>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Heaton Chapel</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">HTC</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:41</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</at>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Levenshulme</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">LVM</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:44</st>
+                     <at xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</at>
+                  </callingPoint>
+               </callingPointList>
+            </previousCallingPoints>
+            <subsequentCallingPoints xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">
+               <callingPointList serviceType="train" serviceChangeRequired="false" assocIsCancelled="false">
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Manchester Oxford Road</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">MCO</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">07:54</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Deansgate</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">DGT</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">08:04</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Salford Crescent</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">SLD</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">08:07</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Bolton</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">BON</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">08:27</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Hall I' Th' Wood</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">HID</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">08:32</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Bromley Cross</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">BMC</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">08:35</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Entwistle</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">ENT</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">08:42</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Darwen</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">DWN</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">08:48</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Blackburn</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">BBN</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">08:56</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Ramsgreave &amp; Wilpshire</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">RGW</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">09:04</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Langho</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">LHO</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">09:08</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Whalley</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">WHE</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">09:13</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Clitheroe</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">CLH</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">09:26</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+               </callingPointList>
+            </subsequentCallingPoints>
+         </GetServiceDetailsResult>
+      </GetServiceDetailsResponse>
+   </soap:Body>
+</soap:Envelope>

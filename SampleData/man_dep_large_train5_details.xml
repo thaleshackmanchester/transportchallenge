@@ -1,0 +1,38 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetServiceDetailsResponse xmlns="http://thalesgroup.com/RTTI/2015-05-14/ldb/">
+         <GetServiceDetailsResult>
+            <generatedAt xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">2015-10-27T07:53:32.250716+00:00</generatedAt>
+            <serviceType xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">train</serviceType>
+            <locationName xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">Manchester Piccadilly</locationName>
+            <crs xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">MAN</crs>
+            <operator xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">Northern</operator>
+            <operatorCode xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">NT</operatorCode>
+            <std xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">07:54</std>
+            <etd xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">On time</etd>
+            <subsequentCallingPoints xmlns="http://thalesgroup.com/RTTI/2014-02-20/ldb/types">
+               <callingPointList serviceType="train" serviceChangeRequired="false" assocIsCancelled="false">
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Romiley</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">RML</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">08:06</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">Marple</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">MPL</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">08:10</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+                  <callingPoint>
+                     <locationName xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">New Mills Central</locationName>
+                     <crs xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">NMC</crs>
+                     <st xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">08:16</st>
+                     <et xmlns="http://thalesgroup.com/RTTI/2012-01-13/ldb/types">On time</et>
+                  </callingPoint>
+               </callingPointList>
+            </subsequentCallingPoints>
+         </GetServiceDetailsResult>
+      </GetServiceDetailsResponse>
+   </soap:Body>
+</soap:Envelope>
